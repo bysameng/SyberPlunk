@@ -25,10 +25,13 @@ public class ConversationTree {
 		messages = new SubtitleText(rawCon[begin]);
 		for (int i = begin+1; i < rawCon.Length; i++){
 			if (TextParser.IsEndChoice(rawCon[i])){
+//				Debug.Log(rawCon[i]);
 				end = i;
 				return;
 			}
 			if (TextParser.IsChoice(rawCon[i])){
+//				Debug.Log(rawCon[i]);
+
 				while (!TextParser.IsEndChoice(rawCon[i])){
 					ConversationTree t = new ConversationTree(rawCon, i+1);
 					t.choiceString = TextParser.TrimChoice(rawCon[i]);
@@ -42,6 +45,7 @@ public class ConversationTree {
 	public string[] GetChoices(){
 		string[] choiceStringArr = new string[choices.Count];
 		for (int i = 0; i < choices.Count; i++){
+//			Debug.Log(choices[i].choiceString);
 			choiceStringArr[i] = choices[i].choiceString;
 		}
 		return choiceStringArr;

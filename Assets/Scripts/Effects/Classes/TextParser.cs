@@ -58,14 +58,14 @@ public class TextParser{
 	public static string RemoveExtraWhitespace(string str){
 		int start = 0, end = 0;
 		for (int i = 0; i < str.Length; i++){
-			if (str[i] == '\t' || str[i] == ' '){
+			if (str[i] == '\t' || str[i] == '\r'  || str[i] == '\n'){
 				
 				start = i+1;
 			}
 			else break;
 		}
 		for (int i = str.Length-1; i > 0; i--){
-			if (str[i] == '\t' || str[i] == ' '){
+			if (str[i] == '\t' || str[i] == '\r' || str[i] == '\n'){
 				end++;
 			}
 			else break;

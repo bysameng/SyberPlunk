@@ -71,12 +71,14 @@ public class Talker : MonoBehaviour {
 			comptext.Display(cTree.GetMessages().GetNext());
 			cTree.GetMessages().Increment();
 		}
-		string[] choiceStringArr = GetChoices ();
+		string[] choiceStringArr = cTree.GetChoices ();
 		choices = new ChoiceBubble[choiceStringArr.Length];
+//		Debug.Log (choices.Length);
 		for (int i = 0; i < choices.Length; i++){
 			GameObject c = (GameObject)Instantiate(Resources.Load("Prefabs/ChoiceObject"), 
 			                                       choiceParentObject.transform.position + choiceParentObject.transform.forward, 
 			                                       choiceParentObject.transform.rotation);
+
 			c.transform.position = c.transform.position + c.transform.right * (i - (choices.Length-1)/2f);
 			c.gameObject.transform.parent = choiceParentObject.transform;
 			choices[i] = c.GetComponent<ChoiceBubble>();
