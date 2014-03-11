@@ -1,0 +1,40 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Effects/ObjectSpecific/MovableDoor.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Talker.cs" Line="105" Column="29" />
+      <File FileName="Assets/Scripts/Effects/Classes/ConversationTree.cs" Line="51" Column="24" />
+      <File FileName="Assets/Scripts/Effects/Classes/MLGInteractable.cs" Line="46" Column="11" />
+      <File FileName="Assets/Scripts/Effects/PlotTrigger.cs" Line="23" Column="1" />
+      <File FileName="Assets/Scripts/Effects/MLGeffects.cs" Line="104" Column="118" />
+      <File FileName="Assets/Scripts/LevelScript.cs" Line="29" Column="1" />
+      <File FileName="Assets/Scripts/Effects/EventEffects/Transporter.cs" Line="42" Column="15" />
+      <File FileName="Assets/Scripts/Effects/Companion/CompanionText.cs" Line="149" Column="44" />
+      <File FileName="Assets/Scripts/Effects/ObjectSpecific/MovableDoor.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Assembly-CSharp-vs" expanded="True">
+            <Node name="Scripts" expanded="True">
+              <Node name="Effects" expanded="True">
+                <Node name="Classes" expanded="True" />
+                <Node name="Companion" expanded="True" />
+                <Node name="EventEffects" expanded="True" />
+                <Node name="ObjectSpecific" expanded="True">
+                  <Node name="MovableDoor.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/sam/Unity/SyberPlunk/Assets/Scripts/Effects/Interactors/Shoost.cs" line="46" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

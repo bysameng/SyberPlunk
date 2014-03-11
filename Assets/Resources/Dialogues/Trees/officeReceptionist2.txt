@@ -1,0 +1,16 @@
+So you got your assignment. @ They just informed me you were heading over.
+<How do I get there?>
+	Oh, just take the car again. @ It is already prepped for launch. @ It'll take you right there. @ Floor 12, down those stairs.
+	<Ok, thanks.>
+		No problem. Good luck!
+	</>
+</>
+<Yeah, and they gave me a gun!>
+	Haha, nice. @ But don't get carried away with it. @ Guns are pretty loud. @ Is it fully charged?
+	<Should be...>
+		Good enough. @ Don't die, alright? @ You can get to the location by the same car. @ Floor 12 down those stairs. @ Just keep walking down.
+	</>
+	<Probably?>
+		Haha. Don't die, alright? @ You can get to the location by the same car. @ Floor 12 down those stairs. @ Just keep walking down.
+	</>
+</>

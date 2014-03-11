@@ -1,0 +1,28 @@
+Hey. @ Guy got plunked just a while ago. @ Good thing you're here. @ But we need you at the office. @ Plunker on the loose. @ Should be an assignment for you up there.
+<Wait, what happened here?>
+	Just told you, this poor fella's been plunked. @ We can't do anything about it. @ He's gone. @ His consciousness is shot. @ His body is now just a shell. @ It was a pretty high plunk.
+	<Do we know who did it?>
+		It's just some plunker. @ Many of them out there. @ We can't do anything about it. @ We'll catch them. @ We have info on one plunker. @ That's your assignment.
+		<What is plunking?>
+			A felony. @ Very dangerous. @ By using SCAfEs, people base jump. @ The SCAfE gathers kinetic energy from the falling velocity. @ It discharges onto organic matter. @ Kills instantly.
+			<Who made something like that?>
+				Originally an industrial firm. @ They wanted to move dead tissue. @ Growth hormone study tends to create a lot of it. @ Moving a couple hundred tons of biomatter isn't easy. @ SCAfE's are pulleys for organic matter. @ They gather energy and discharge velocity. @ SkyPlunkers found out that they work the other way around. @ SCAfEs are highly illegal now.
+				<I best be going, then.>
+					Good idea. @ We have it from here. @ Go in the car. @ It'll take you right to INTForce and your office.
+				</>
+			</>
+		</>
+	</>
+	<What is plunking?>
+		A felony. @ Very dangerous. @ By using SCAfEs, people base jump. @ The SCAfE gathers kinetic energy from the falling velocity. @ It discharges onto organic matter. @ Kills instantly.
+		<Who made something like that?>
+			Originally an industrial firm. @ They wanted to move dead tissue. @ Growth hormone study tends to create a lot of it. @ Moving a couple hundred tons of biomatter isn't easy. @ SCAfE's are pulleys for organic matter. @ They gather energy and discharge velocity. @ SkyPlunkers found out that they work the other way around. @ SCAfEs are highly illegal now.
+			<I best be going, then.>
+				Good idea. @ We have it from here. @ Go in the car. @ It'll take you right to INTForce and your office.
+			</>
+		</>
+	</>
+</>
+<Alright. Let's go.>
+	Alright. @ Just get into the car. @ It'll take you right to INTForce and your office. @ I'm actually going to stay and handle this. @ We need to see if that SCAfE can be traced.
+</>

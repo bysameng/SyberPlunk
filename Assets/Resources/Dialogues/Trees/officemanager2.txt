@@ -1,0 +1,16 @@
+Did you get the COMPanion?
+<No.>
+	Well then goddamn get it.
+	<No.>
+		You'll eventually have to get it.
+	</>
+	<Ok.>
+		Good boy.
+	</>
+</>
+<Yes.>
+	Alright, good. @ Now get your ass over there. @ We're already late on this case.
+		<Yessir>
+			Good boy.
+		</>
+</>

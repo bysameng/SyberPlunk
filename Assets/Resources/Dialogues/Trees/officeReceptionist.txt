@@ -1,0 +1,64 @@
+Hello, welcome back. @ Your new office is at the end of the hall to your right. @ Room 1409.
+<I hate this new place.>
+	It's alright. Me too. @ But don't whine to me!
+	<I'll whine where I like.>
+		Haha, I suppose so.
+	</>
+	<Why not?>
+		Well, firstly it's not my fault. @ So there's that, haha! @ Well I mean you can blame me if you'd like. @ I'll blame you for this harsh blue lighting!
+		<I like blue though>
+			So it IS your fault! @ Hahaa
+		</>
+	</>
+	<Ok, sorry.>
+		Haha, no need to apologize. @ It's all good! @ Now get your behind to your office. @ I think Calyro's waiting for you.
+	</>
+</>
+<Are my things in there?>
+	I am unsure. @ We only recently were moved here. @ Even I don't have my bearings yet.
+	<Even you huh.>
+		Yeah, even me. @ It's a little ridiculous how much they make us move around. @ I wonder why they do it.
+		<It's because of all the Plunkers.>
+			Yeah, maybe. @ We are in fact moving higher up each time.
+			<Do you know anything about the Plunkers?>
+				Not much. @ Maybe whatever I know from the news. @ And even if I did know a lot, @ I shouldn't be doing your job. @ Haha. @ Just kidding, man.
+				<Not funny.>
+					Ok, geez.
+				</>
+				<Hahaha.>
+					Haha. @ Well anyways, I should probably go get... @ like a computer or something. @ Or at least some stimulants... @ This blue light's killing me.
+					<See you.>
+						Bye.
+					</>
+				</>
+			</>
+			<What do you know about STAfEs?>
+				That that's what the SkyPlunkers use. @ Not much else, unfortunately. @ They do sound like quite a feat of science, though.
+				<What do they do?>
+					Well, all I know is that it somehow stores kinetic energy. @ It can then do something just as powerful as that. @ Kind of like a high tech, versatile pulley?
+					<Sounds interesting.>
+						Sure, I guess. @ Not really into the whole science-thing, though. @ Well anyways, I should go do my work. @ See you around.
+					</>
+					<Sounds dangerous.>
+						Haha. @ Of course it is! @ I mean, if they weren't... @ Would SkyPlunkers use them to kill people?
+						<Maybe for the difficulty.>
+							True, but don't they do it because well... @ Jumping off of buildings is what they like.
+						</>
+						<They could.>
+							Well of course you would want them to. @ If there were no murders, you'd be out of a job!
+						</>
+					</>
+				</>
+				<Indeed. I want one.>
+					I hope you mean you want one for... @ Industrial purposes! @ And you want it for evidence, of course.
+					<No, I want one to kill people with.>
+						Hahaha. Good one.
+					</>
+					<Of course.>
+						Haha. I gotcha.
+					</>
+				</>
+			</>
+		</>
+	</>
+</>

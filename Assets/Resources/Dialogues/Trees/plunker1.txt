@@ -1,0 +1,559 @@
+First you're soaring through the fucking sky... @ Then you stop. @ You're falling hundreds of feet per second. @ Reaching terminal velocity. @ You see people beneath you. @ And as you quickly approach the ground... You choose one person. @ One person, unaware. @ You use your STAfE. @ It starts vibrating. @ All that energy, all that force... @ You thrust it right into the skull of that one person. @ You get the feedback of all of your inertia disappearing. @ Your... volunteer... @ Your volunteer's body stops working. @ It collapses. @ Life in that shell ceases to exist. @ It targets the biological, mushy parts. @ Every sense in their body is overloaded at once. @ Their consciousness stops existing. @ You can watch their body just crumple to the ground. @ You slow down and glide to street level. @ You then walk off, unscathed. @ I'm surprised you aren't shooting me.
+<More lucky, than anything.>
+	I'm not sure what you mean by that.
+	<I ran out of bullets.>
+		I see. Well, happens to the best of us. @ Right?
+		<Why don't you hand over that STAfE?>
+			How about no.
+			<That's not a good answer.>
+				It's like if I asked you to give me your gun. @ Would you give it to me?
+				<Sure.>
+					Really? @ Then let's trade.
+					<Wait, what?>
+						Trade our weapons with each other. @ Yes or no?
+						<Yes>
+							Alright! @ Let's trade!
+						</>
+						<No>
+							Aw. Well, I guess I'll just jump. @ See ya!
+						</>
+					</>
+					<Alright, let's trade.>
+						Alright. @ Let's trade!
+					</>
+				</>
+				<No way.>
+					Exactly. @ This STAfE is to me, how your handcannon is to you.
+				</>
+			</>
+			<Fair enough>
+				Wait, really? @ ...Does that mean I'm off the hook?
+				<Yes.>
+					Well fuck, I'll jump. @ See ya!
+				</>
+				<No.>
+					Well I don't want to spend my time locked up. @ See ya!
+				</>
+			</>
+		</>
+	</>
+	<I was going for non-lethal.>
+		Probably doesn't work when I'm going for lethal.
+		<Well nevermind. I'm going to shoot you.>
+			Ok, then shoot me. @ Shoot me. @ Do it. @ Do it. @ Just do it. @ Aren't you going to shoot me? @ Are you scared you fucking INTForcer? @ Fucking shoot me. @ FUCKING SHOOT ME. @ You're still just standing there. @ I'll just leave if you won't kill me. @ Ok. @ See ya!
+		</>
+		<I'm gonna need your STAfE.>
+			How about... I'm gonna need your gun?
+			<I'm not giving you my gun.>
+				Why not? If I were gonna give you my STAfE... @ We need to trade, that's what.
+				<Trade?>
+					Yeah, trade. @ Like, you give me your gun. @ I give you my STAfE.
+					<No.>
+						Aw. What a killjoy. @ I was looking forward to playing with your gun. @ Don't you wanna try SkyPlunking?
+						<No.>
+							But it's so goddamn beautiful.
+							<Fine, let's trade.>
+								Alright then! @ Let's trade!
+							</>
+							<No it's not.>
+								Fine. Then I'll best be going. @ See ya!
+							</>
+						</>
+						<Yes.>
+							Then let's trade.
+						</>
+					</>
+					<Yes.>
+						Alright then! @ Let's trade!
+					</>
+					<You're fucking stupid.>
+						Hahaha @ Look who's goddamn talking. @ Well, then if we're not gonna trade... @ See ya!
+					</>
+				</>
+			</>
+			<I said, hand over the STAfE.>
+				I'm not going to give it to you. Unless.. we trade.
+				<Trade?>
+					Yeah, trade. @ Like, you give me your gun. @ I give you my STAfE.
+					<No.>
+						Aw. What a killjoy. @ I was looking forward to playing with your gun. @ Don't you wanna try SkyPlunking?
+						<No.>
+							Well, I do. @ Alright, well... @ See ya!
+						</>
+						<Yes.>
+							Then let's trade. @ My STAfE for your gun. @ Then you can plunk!
+							<No.>
+								Fine. Well... I think I'm tired of this song. @ I'll plunk if you won't. @ See ya!
+							</>
+							<Yes.>
+								Alright then! @ Let's trade!
+							</>
+						</>
+					</>
+					<Yes.>
+						Alright then! @ Let's trade!
+					</>
+					<You're fucking stupid.>
+						Hahaha @ Look who's goddamn talking. @ Well, then if we're not gonna trade... @ See ya!
+					</>
+				</>
+			</>
+		</>
+	</>
+</>
+<Why would I shoot you?>
+	Well, you ARE part of INTForce. @ You're supposed to be protecting the city. @ From scum like me, of course.
+	<You're not scum.>
+		Oh that's a new one. @ I kill people by jumping off of buildings. @ And you say I'm not scum? @ Rich.
+		<You're not scum because I haven't seen you kill.>
+			Is that the requirement? @ Then barely anyone is scum to you, right?
+			<No.>
+				But I'm not scum?
+				<You're special.>
+					You're so fucking sweet.
+					<You're welcome.>
+						Well, it was nice talking to you. @ Maybe I should get going.
+						<You're not going anywhere. Hand over the STAfE!>
+							Oh okay. @ Haha no, just fucking with you. @ Why would I just give it to you? You're an idiot. @ Would you just hand over your gun to me?
+							<I said hand over the STAfE!>
+								You're really persistent, aren't you? @ I'm not going to give it to you. @ Well... unless we trade.
+								<Trade?>
+									Yes. Your gun for my STAfE.
+								</>
+							</>
+							<No.>
+								Exactly. @ So I'm not going to give you my STAfE. @ They're hard to get, you know?
+							</>
+							<Yes.>
+								Really? You'll just give it to me? @ Just like that? @ Thanks!
+							</>
+						</>
+					</>
+				</>
+				<I lied. You are.>
+					Aw, you got my hopes up.
+					<Too fucking bad.>
+						Well, whatever. @ Call me what you want. @ At least I'm not fucking SHIT at what I do.
+						<What do you mean?>
+							I'm mean... @ You. @ Are. @ FUCKING. @ SHIT. @ At your job. @ Seriously. @ Shouldn't I be dead right now? @ Instead we're talking!
+							<I'm trying to get you to give me the STAfE.>
+								No can do. @ It's like if I asked you to give me your gun. @ You wouldn't.
+								<You're right, I wouldn't.>
+									Precisely. @ But you know, we can trade if you want.
+									<Trade?>
+										Yeah, trade. @ Like, you give me your gun. @ I give you my STAfE.
+										<No.>
+											Aw. What a killjoy. @ I was looking forward to playing with your gun. @ Don't you wanna try SkyPlunking?
+											<No.>
+												Well, I do. @ Alright, well... @ See ya!
+											</>
+											<Yes.>
+												Then let's trade. @ My STAfE for your gun. @ Then you can plunk!
+												<No.>
+													Fine. Well... I think I'm tired of this song. @ I'll plunk if you won't. @ See ya!
+												</>
+												<Yes.>
+													Alright then! @ Let's trade!
+												</>
+											</>
+										</>
+										<Yes.>
+											Alright then! @ Let's trade!
+										</>
+										<You're fucking stupid.>
+											Hahaha @ Look who's goddamn talking. @ Well, then if we're not gonna trade... @ See ya!
+										</>
+									</>
+								</>
+								<I would.>
+									Really?
+									<Yes. Here's my gun.>
+										Whoa. @ Thanks!
+									</>
+									<No, you idiot.>
+										Darn. Well, we could trade.
+										<Trade?>
+											Yeah, trade. @ Like, you give me your gun. @ I give you my STAfE.
+											<No.>
+												Aw. What a killjoy. @ I was looking forward to playing with your gun. @ Don't you wanna try SkyPlunking?
+												<No.>
+													Well, I do. @ Alright, well... @ See ya!
+												</>
+												<Yes.>
+													Then let's trade. @ My STAfE for your gun. @ Then you can plunk!
+													<No.>
+														Fine. Well... I think I'm tired of this song. @ I'll plunk if you won't. @ See ya!
+													</>
+													<Yes.>
+														Alright then! @ Let's trade!
+													</>
+												</>
+											</>
+											<Yes.>
+												Alright then! @ Let's trade!
+											</>
+											<You're fucking stupid.>
+												Hahaha @ Look who's goddamn talking. @ Well, then if we're not gonna trade... @ See ya!
+											</>
+										</>
+									</>
+								</>
+							</>
+						</>
+					</>
+					<Hand over the STAfE!>
+						Oh okay. @ Haha no, just fucking with you. @ Why would I just give it to you? You're an idiot. @ Would you just hand over your gun to me?
+						<I said hand over the STAfE!>
+							You're really persistent, aren't you? @ I'm not going to give it to you. @ Well... unless we trade.
+							<Trade?>
+								Yes. Your gun for my STAfE.
+								<No trade.>
+									Whatever then. @ See ya!
+								</>
+								<Ok, trade.>
+									Alright then! @ Let's trade.
+								</>
+							</>
+						</>
+						<No.>
+							Exactly. @ So I'm not going to give you my STAfE. @ They're hard to get, you know?
+							<Doesn't matter. Hand it over.>
+								That's really not ever going to happen. @ Unless you trade me your gun. @ Are you sure you don't want to? @ Do you want to trade?
+								<No trade.>
+									Whatever then. @ See ya!
+								</>
+								<Ok, trade.>
+									Alright then! @ Let's trade.
+								</>
+							</>
+						</>
+						<Yes.>
+							Really? You'll just give it to me? @ Just like that? @ Thanks!
+						</>
+					</>
+				</>
+			</>
+			<Yes.>
+				You're a really bad INTForcer, aren't you? @ Haha, they're all fucking shit. @ We SkyPlunkers die more from plunking.
+				<That's because we don't kill you>
+					What? Yes they do. @ Most of the time we're in groups, though. @ So this one-on-one conversation wouldn't happen. @ We'd be gone.
+				</>
+				<Good.>
+					Well It's beautiful, ain't it? @ Plunging down from 500 stories high. @ The rush. @ Just to direct all that kinetic energy... @ Into one person's skull. @ Then landing on the floor, safe.
+					<It's not beautiful that you use other people.>
+						It only works on organic bodies, ya know. @ The STAfE, I mean.
+						<Hand it over!>
+							Oh okay. @ Haha no, just fucking with you. @ Why would I just give it to you? You're an idiot. @ Would you just hand over your gun to me?
+							<I said hand over the STAfE!>
+								You're really persistent, aren't you? @ I'm not going to give it to you. @ Well... unless we trade.
+								<Trade?>
+									Yes. Your gun for my STAfE.
+									<No trade.>
+										Whatever then. @ See ya!
+									</>
+									<Ok, trade.>
+										Alright then! @ Let's trade.
+									</>
+								</>
+							</>
+							<No.>
+								Exactly. @ So I'm not going to give you my STAfE. @ They're hard to get, you know?
+								<Doesn't matter. Hand it over.>
+									That's really not ever going to happen. @ Unless you trade me your gun. @ Are you sure you don't want to? @ Do you want to trade?
+									<No trade.>
+										Whatever then. @ See ya!
+									</>
+									<Ok, trade.>
+										Alright then! @ Let's trade.
+									</>
+								</>
+								<Fine, nevermind.>
+									Alright. @ It's been nice talking to you, but... @ See ya!
+								</>
+							</>
+							<Yes.>
+								Really? You'll just give it to me? @ Just like that? @ Thanks!
+							</>
+						</>
+						<What, really?>
+							Yeah, they don't put that on the news huh? @ STAfEs were meant to move large organic things. @ Or something like that, I don't know.
+							<Are you gonna give it to me?>
+								Of course! @ Haha no, just fucking with you. @ Why would I just give it to you? @ You're an idiot. @ Would you just hand over your fancy ass gun to me?
+								<I said hand over the STAfE!>
+									You're really persistent, aren't you? @ I'm not going to give it to you. @ Well... unless we trade.
+									<Trade?>
+										Yes. Your gun for my STAfE.
+										<No trade.>
+											Whatever then. @ See ya!
+										</>
+										<Ok, trade.>
+											Alright then! @ Let's trade.
+										</>
+									</>
+								</>
+								<No.>
+									Exactly. @ So I'm not going to give you my STAfE. @ They're hard to get, you know?
+									<Doesn't matter. Hand it over.>
+										That's really not ever going to happen. @ Unless you trade me your gun. @ Are you sure you don't want to? @ Do you want to trade?
+										<No, no trade.>
+											Whatever then. @ See ya!
+										</>
+										<Ok, trade.>
+											Alright then! @ Let's trade.
+										</>
+									</>
+									<Fine, nevermind.>
+										Alright. @ Well, I love this STAfE. @ I'm gonna use it. @ See ya!
+									</>
+								</>
+								<Yes.>
+									Really? You'll just give it to me? @ Just like that?
+								</>
+							</>
+						</>
+						<I know, but you shouldn't do it.>
+							We all shouldn't be doing a lot of things, huh. @ I shouldn't plunk. @ You shouldn't be talking to me. @ You should be shooting me.
+							<I need your STAfE.>
+							I'm not going to give it to you, though.
+								<Hand over the STAfE!>
+									I told you. @ I'm not going to give it to you. @ Unless... @ You trade me your gun for it.
+									<Trade?>
+										Yes. Your gun for my STAfE.
+									</>
+								</>
+								<No.>
+									Exactly. @ So I'm not going to give you my STAfE. @ They're hard to get, you know?
+									<Doesn't matter. Hand it over.>
+										That's really not ever going to happen. @ Unless you trade me your gun. @ Are you sure you don't want to? @ Do you want to trade?
+										<No, no trade.>
+											Whatever then. @ See ya!
+										</>
+										<Ok, trade.>
+											Alright then! @ Let's trade.
+										</>
+									</>
+									<Fine, nevermind.>
+										Alright. @ Well, I love this STAfE. @ I'm gonna use it. @ See ya!
+									</>
+								</>
+								<Yes.>
+									Really? You'll just give it to me? @ Just like that?
+								</>
+							</>
+						</>
+					</>
+				</>
+			</>
+		</>
+	</>
+	<I am. But I don't need to kill you.>
+		Do you really think that's better?	
+		<No.>
+			Why not?
+			<Death is the only way out of this city.>
+				Took the words right out of my fucking mouth. @ That's how it is. @ This fucking city...
+			</>
+			<I won't be able to punish you.>
+				You're real fucking sadistic. @ Maybe you should stop taking stimulants.
+				<FUCK YOU, I'll take as many as I want.>
+					Ha, what are you gonna do? @ Shoot me? @ I was merely making a suggestion.
+					<Well, don't suggest shit.>
+						Alright, alright man. Calm the fuck down.
+						<No, you calm the fuck down.>
+							I'm calm as fuck. @ You're the crazy one. @ Why don't you just sit down with me and jam? @ You calm the fuck down.
+						</>
+						<I'm already calm.>
+							Then good.
+						</>
+					</>
+					<Yeah I'm gonna shoot you.>
+						Then fucking do it. @ Fucking shoot me. @ You're just standing there talking. @ You're not gonna fucking shoot me are you?
+						<I will.>
+							Then fucking do it. @ What are you fucking scared?
+							<No.>
+								Ok. @ Then kill me. @ Take out your gun and kill me. @ Do it. @ Why aren't you doing it? @ Fucking do it. @ FUCKING KILL ME. @ Ok, then you're not going to do it? @ Then I'll kill someone. @ See ya!
+							</>
+							<Yes.>
+								Don't be scared, little INTForcer. @ There's nothing to be scared about. @ You'll just tell them I wasn't here. @ Or I got away. @ So you can keep your job. @ And I am getting away. @ See ya!
+							</>
+						</>
+						<I'm not.>
+							Well, then that's clear. @ I'm glad I won't have to die by your hand. @ It's terrible, if I give you that.
+							<Give me your STAfE, then.>
+							Alright, here you go. @ Haha no, just fucking with you. @ Why would I just give it to you? @ You're an idiot. @ Would you just hand over your gun to me?
+								<Just give me it.>
+									You're really persistent, aren't you? @ I'm not going to give it to you. @ Well... unless we trade.
+									<Trade?>
+										Yes. Your gun for my STAfE.
+										<No, no trade.>
+											Whatever then. @ See ya!
+										</>
+										<Ok, trade.>
+											Alright then! @ Let's trade.
+										</>
+									</>
+								</>
+								<No.>
+									Exactly. @ So I'm not going to give you my STAfE. @ They're hard to get, you know?
+									<Doesn't matter. Hand it over.>
+										That's really not ever going to happen. @ Unless you trade me your gun. @ Are you sure you don't want to? @ Do you want to trade?
+										<No, no trade.>
+											Whatever then. @ See ya!
+										</>
+										<Ok, trade.>
+											Alright then! @ Let's trade.
+										</>
+									</>
+									<Fine, nevermind.>
+										Alright. @ Well, I love this STAfE. @ I'm gonna use it. @ See ya!
+									</>
+								</>
+								<Yes.>
+									Really? You'll just give it to me? @ Just like that?
+								</>
+							</>
+						</>
+					</>
+					<Fair enough.>
+						Well then we're clear. @ If you're going to arrest me, @ that's not gonna happen. @ I'll jump out of the car.
+						<You won't have a STAfE to break your fall.>
+							Doesn't matter.
+							<I'll tie you down.>
+								You don't look like the type to do so. @ And everyone knows the INTForce is a bunch of pussies.
+							</>
+						</>
+					</>
+				</>
+				<Yeah, probably.>
+					But it's ingrained into your society. @ Wake up, take stims. @ Go to work. @ Get out of work. @ Go fly to a bar. @ Take antiStims. @ Sleep. @ Repeat.
+					<You're very cheerful.>
+						Is that some fucking sarcasm? @ You're a piece of shit, man. @ I wish you were 5000ft below me. @ So I could plunk your fucking ass.
+						<You should hand over that STAfE.>
+							You're joking, right? @ I'm not going to just give it to you. @ Don't be an idiot.
+							<Trade?>
+								Yeah, your gun for my STAfE. @ Good trade, no?
+								<Not good.>
+									Why's it not a good trade? @ I think.. it's fantastic.
+									<Because reasons.>
+										Well, alright. @ Then I guess I'll just go. @ See ya!
+									</>
+									<Because I need my gun.>
+										Do you? @ You can still survive without your gun. @ Look at me, I'm surviving without your gun. @ If you want the STAfE, you'll have to trade.
+										<No, no trade.>
+											Whatever then. @ I'll just be going then. @ See ya!
+										</>
+										<Ok, trade.>
+											Alright then! @ Let's trade.
+										</>
+									</>
+								</>
+								<Okay, trade.>
+									Alright then! @ Let's trade.
+								</>
+							</>
+						</>
+					</>
+					<I don't do that.>
+						Really. @ Don't fucking lie to me. @ You have your job. @ You have your apartment. @ Computers, arts, stims, lights, colors, money. @ Just because you're an INTForcer, @ doesn't mean you aren't "normal." @ You're just another piece of shit.
+						<And you're not? You're killing people.>
+							I'm killing pieces of shit. @ By jumping out of a building. @ Out of a hole I fucking EXPLODED. @ You didn't see that, but it was fucking awesome.
+							<You sound like a piece of shit to me.>
+								Thanks. @ You too.
+								<Give me the STAfE.>
+									I'm not going to give you my STAfE. @ Do you think I'm an idiot? @ It was fucking hard to get one.
+									<Give me it or I'll shoot you.>
+										You're not going to shoot me. @ And no, I won't give you it. @ Unless... @ We trade. Your gun.
+										<Trade?>
+											Yeah, your gun for my STAfE. @ Good trade, no?
+											<Not good.>
+												Why's it not a good trade? @ I think.. it's fantastic.
+												<Because reasons.>
+													Well, alright. @ Then I guess I'll just go. @ See ya!
+												</>
+												<Because I need my gun.>
+													Do you? @ You can still survive without your gun. @ Look at me, I'm surviving without your gun. @ If you want the STAfE, you'll have to trade.
+													<No, no trade.>
+														Whatever then. @ I'll just be going then. @ See ya!
+													</>
+													<Ok, trade.>
+														Alright then! @ Let's trade.
+													</>
+												</>
+											</>
+											<Okay, trade.>
+												Alright then! @ Let's trade.
+											</>
+										</>
+									</>
+								</>
+							</>
+						</>
+					</>
+				</>
+			</>
+		</>
+		<Yes.>
+			So are you gonna let me go?
+			<No.>
+				Darn, so close, too. @ Then what are you gonna do?
+				<I'm going to kill you.>
+					Ok, then fucking do it already. @ You're still just standing there... @ Aren't you going to kill me? @ I see you have a gun.
+					<So I do.>
+						I see that you do. @ Hey, why don't we trade?
+						<Trade?>
+							Yeah, your gun for my STAfE. @ Good trade, no?
+							<Not good.>
+								Why's it not a good trade? @ I think.. it's fantastic.
+								<Because reasons.>
+									Well, alright. @ Then I guess I'll just go. @ See ya!
+								</>
+								<Because I need my gun.>
+									Do you? @ You can still survive without your gun. @ Look at me, I'm surviving without your gun. @ If you want the STAfE, you'll have to trade.
+									<No, no trade.>
+										Whatever then. @ I'll just be going then. @ See ya!
+									</>
+									<Ok, trade.>
+										Alright then! @ Let's trade.
+									</>
+								</>
+							</>
+							<Okay, trade.>
+								Alright then! @ Let's trade.
+							</>
+						</>
+					</>
+				</>
+				<I'm going to take the STAfE.>
+					Haha, no you're not.
+					<Give me it or I'll shoot you.>
+						You just said you're not going to shoot me. @ And no, I won't give you it. @ Unless... @ We trade. Your gun.
+						<Trade?>
+							Yeah, your gun for my STAfE. @ Good trade, no?
+							<Not good.>
+								Why's it not a good trade? @ I think.. it's fantastic.
+								<Because reasons.>
+									Well, alright. @ Then I guess I'll just go. @ See ya!
+								</>
+								<Because I need my gun.>
+									Do you? @ You can still survive without your gun. @ Look at me, I'm surviving without your gun. @ If you want the STAfE, you'll have to trade.
+									<No, no trade.>
+										Whatever then. @ I'll just be going then. @ See ya!
+									</>
+									<Ok, trade.>
+										Alright then! @ Let's trade.
+									</>
+								</>
+							</>
+							<Okay, trade.>
+								Alright then! @ Let's trade.
+							</>
+						</>
+					</>
+				</>
+			</>
+			<Yes.>
+				Alright then! @ See ya!
+			</>
+		</>
+	</>
+</>

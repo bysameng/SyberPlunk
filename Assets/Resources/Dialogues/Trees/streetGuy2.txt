@@ -1,0 +1,13 @@
+I have this under control. @ Just scanning the SCAfE. @ I think Grend over by the car wants to speak with you. @ Something about an assignment. @ And a new office? @ Anyways, best you talk to him. @ I'm a little busy here.
+<What happened here?>
+	Plunking. @ Same old, same old.
+	<Who did it?>
+		That's what I'm trying to find out. @ I'm scanning the SCAfE now.
+	</>
+	<What is plunking?>
+		What is plunking? @ Geez, man. @ You should know this. @ It uses this blue stick, a SCAfE. @ It kills people. @ I need to track this. @ Go talk to Grend.
+	</>
+</>
+<Alright. I'll leave you alone.>
+	Okay. @ I hope I can track this shit.
+</>

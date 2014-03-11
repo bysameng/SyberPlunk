@@ -1,0 +1,64 @@
+We had to relocate you. Sorry.
+<Again? Geez.>
+	Don't give me that sass.
+	<Why not?>
+		Because I'm your superior. @ Just go pick up your COMPanion. @ It's on the desk. @ Run along now.
+	</>
+	<Well fuck you, Calyro.>
+		Why don't you channel that rage. @ You have an assignment. @ It's on the desk. @ Run along now.
+	</>
+</>
+<Oh.>
+	Keep your chin up. It's really not that bad. @ I had to do it.
+	<Bullshit you had to.>
+		Look, we lost a chunk of our funding. @ Nothing I can do about it.
+			<Well what about your goddamn office?>
+				Hey man... @ You're barely ever in your office. @ I'm management. I practically live there.
+					<*snort*>
+						Well just goddamn do your job. @ It's on the desk.
+					</>
+			</>
+			<Fine.>
+				Alright, then we're clear. @ Go pick up your assignment on the table.
+			</>
+			<Another cut?>
+				We're always losing money. @ We'd make more if you stopped wasting time. @ Go pick up your assignment.
+			</>
+	</>
+	<Yeah, I know...>
+		I'm glad you understand. @ Funding's been cut again. @ It's hard on all of us.
+			<Anything I can do?>
+				Well, you can help easily. @ Just do your job. @ Assignment's on the desk.
+			</>
+			<Well damn.>
+				Well damn's right. @ InTRON's been sucking all of our cash. @ Whatever, fuck them. @ Go do your job. @ Your assignment's on the desk.
+			</>
+	</>
+	<Ok. What's my next job?>
+		I'm surprised you want to get to work. @ Good on you. @ Your assignment's on the desk.
+	</>
+</>
+<Yeah, I kinda noticed.>
+	Don't get wise with me. @ They cut into our funding. @ Massive rearrangements.
+	<And you get rearranged into a larger office?>
+		Look, you're barely ever in. @ I'm management, I basically live here.
+			<Yeah ok.>
+				Ok. @ Then go inside. @ There's a COMPanion on the desk. @ Do your job.
+			</>
+			<...>
+				... @ Well, you have a new job. @ Your COMPanion's on the desk. @ Run along now.
+			</>
+	</>
+	<Really? I didn't notice. /s>
+		Because you're an idiot, clearly. @ We done talking here? @ Your assignment's on the desk inside.
+	</>
+	<I know, I know.>
+		Alright, then we're clear.
+		<No.>
+			No, that wasn't a question. @ Your assignment's on the desk.
+		</>
+		<Yes.>
+			Ok. @ Your assignment's on your desk. @ Run along now.
+		</>
+	</>
+</>
