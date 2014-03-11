@@ -55,6 +55,10 @@ public class LevelScript : MonoBehaviour {
 		StartCoroutine(SubtitleEngine());
 		effects.ShakeScreen(.1f);
 
+		//fade in screen on start
+		fader.SetScreenOverlayColor(Color.black);
+		//fader.StartFade(Color.black, 0f);
+		fader.StartFade(new Color(0, 0, 0, 0), 4f);
 	}
 	
 	// Update is called once per frame
@@ -169,8 +173,18 @@ public class LevelScript : MonoBehaviour {
 			fader.StartFade(Color.clear, 5f);
 			effects.SetPlayerLookSpeed(-1, -1);
 			break;
+		case "Goodbye.":
+			AudioSource.PlayClipAtPoint((AudioClip)Resources.Load<AudioClip>("Sounds/bang"), talker.transform.position);
+			fader.StartFade(Color.black, .01f);
+			break;
 		default: break;
 		}
 	}
-	
+
+	IEnumerator EndGame(){
+		fader.StartFade(Color.black, 4f);
+		effects.FadeAudio(0, 4f);
+		yield return new WaitForSeconds(4f);
+		subtitleQueue.Enqueue("GAME OVER");
+	}
 }

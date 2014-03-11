@@ -23,7 +23,22 @@ First you're soaring through the fucking sky... @ Then you stop. @ You're fallin
 					</>
 				</>
 				<No way.>
-					Exactly. @ This STAfE is to me, how your handcannon is to you.
+					Exactly. @ This STAfE is to me, how your handcannon is to you. @ Why would I ever give it to you? @ Do you think I'm an idiot? @ Well I'm not.
+					<No, I didn't mean it that way>
+						Really? @ Then let's trade.
+						<Wait, what?>
+							Trade our weapons with each other. @ Yes or no?
+							<Yes>
+								Alright! @ Let's trade!
+							</>
+							<No>
+								Aw. Well, I guess I'll just jump. @ See ya!
+							</>
+						</>
+						<Alright, let's trade.>
+							Alright. @ Let's trade!
+						</>	
+					</>
 				</>
 			</>
 			<Fair enough>

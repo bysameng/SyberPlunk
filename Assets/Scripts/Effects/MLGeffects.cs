@@ -38,8 +38,9 @@ public class MLGeffects : MonoBehaviour {
 	private bool displayingWords = false;
 	private bool blankedScreen = false;
 	private float blankScreenFade = 1f;
+	private bool fadeInterrupt = false;
+	private bool fadingAudio = false;
 
-	
 	//messages
 	private string[] wordsArray;
 	public TextAsset wordsArrayFile;
@@ -262,6 +263,9 @@ rotation = 0;
 		StartCoroutine (ScreenBlanker(Color.clear, seconds));
 	}
 
+	public void FadeAudio(float to, float seconds = 1f){
+		StartCoroutine(AudioFader(to, seconds));
+	}
 
 	////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -420,4 +424,20 @@ rotation = 0;
 
 	}
 
+	IEnumerator AudioFader(float to, float seconds){
+		if (fadingAudio){
+			fadeInterrupt = true;
+			yield return new WaitForEndOfFrame();
+			yield return new WaitForEndOfFrame();
+			fadeInterrupt = false;
+		}
+		fadingAudio = true;
+		float startvol = AudioListener.volume;
+		for (float t = 0; t < seconds; t+= Time.deltaTime){
+			if (fadeInterrupt) yield break;
+			AudioListener.volume = Mathf.SmoothStep(startvol, to, t/seconds);
+			yield return null;
+		}
+		fadingAudio = false;
+	}
 }

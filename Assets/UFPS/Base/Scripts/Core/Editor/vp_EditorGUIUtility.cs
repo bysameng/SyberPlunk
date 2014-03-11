@@ -128,11 +128,10 @@ public static class vp_EditorGUIUtility
 
 	}
 
-
 	/// <summary>
 	/// Returns a layermask popup
 	/// </summary>
-	public static LayerMask LayerMaskField(string label, LayerMask selected, bool showSpecial, string tooltip = "")
+	public static LayerMask LayerMaskField(string label, LayerMask selected, bool showSpecial, string tooltip)
 	{
 
 		List<string> layers = new List<string>();

@@ -24,7 +24,6 @@ using System.Collections.Generic;
 
 public class vp_ComponentPersister
 {
-
 	public vp_Component Component = null;	// component to persist
 	public bool IsActive = true;			// when the component is destroyed properly, this will be set false
 	private bool m_IsPlaying = false;		// used to properly detect when the application starts or stops
