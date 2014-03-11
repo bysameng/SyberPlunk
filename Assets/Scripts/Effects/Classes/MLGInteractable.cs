@@ -36,13 +36,13 @@ public class MLGInteractable : MonoBehaviour {
 	}
 	
 	public void DisplayPrompt(){
-		if (doneTalker == null || !doneTalker.doneTalking)
+		if (doneTalker != null && !doneTalker.doneTalking)
 			return;
 		mlgtext.displayingText = true;
 	}
 	
 	public void Use(){
-		if (doneTalker == null || !doneTalker.doneTalking)
+		if (doneTalker != null && !doneTalker.doneTalking)
 			return;
 		if (useSound != null)
 			AudioSource.PlayClipAtPoint(useSound, this.transform.position);

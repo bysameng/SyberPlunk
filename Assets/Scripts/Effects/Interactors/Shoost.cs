@@ -107,7 +107,7 @@ public class Shoost : MonoBehaviour {
 				Debug.Log ("Shot enemy");
 
 				hit.transform.SendMessage ("GotShot", hit.point);
-				hit.rigidbody.AddForceAtPosition (fwd * 2f, hit.point);
+				//hit.rigidbody.AddForceAtPosition (fwd * 2f, hit.point);
 				
 				//else hit.rigidbody.AddForceAtPosition (fwd * lastShootPower * jumpscope.scopeIndex, hit.point);
 			}

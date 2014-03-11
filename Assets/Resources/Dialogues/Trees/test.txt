@@ -1,7 +1,4 @@
 Hey.
 <Wait, what happened here?>
-	Ah.
-	<Ded.>
-		Ah.
-	</>
+		well then. @ Let's trade!
 </>

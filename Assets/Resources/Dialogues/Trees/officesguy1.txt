@@ -1,0 +1,7 @@
+Oh hey, you're here. @ Uh, offices are on floor 14.
+<What do they need me for?>
+	Dunno. @ Some assignment, probably.
+</>
+<Alright, thanks.>
+	No prob.
+</>

@@ -23,6 +23,8 @@ public class MLGeffects : MonoBehaviour {
 	
 	//defaults
 	public float defaultPlayerSpeed;
+	private float defaultMouseX;
+	private float defaultMouseY;
 	
 	//effect helpers
 	private bool playingAudio = false;
@@ -94,6 +96,8 @@ public class MLGeffects : MonoBehaviour {
 		MLGText text = newobject.AddComponent<MLGText>();
 		text.drawRotatingText("HELLO", new Vector2(0,0), 100f);
 		*/
+		defaultMouseX = LevelScript.playerfpcam.MouseSensitivity.x;
+		defaultMouseY = LevelScript.playerfpcam.MouseSensitivity.y;
 	}
 	
 	
@@ -127,6 +131,13 @@ public class MLGeffects : MonoBehaviour {
 	public void SetPlayerSpeed(float speed = -1){
 		if (speed == -1) speed = defaultPlayerSpeed;
 		LevelScript.player.GetComponent<vp_FPController>().MotorAcceleration = speed;
+	}
+
+	public void SetPlayerLookSpeed(float speedx, float speedy){
+		if (speedx == -1) speedx = defaultMouseX;
+		if (speedy == -1) speedy = defaultMouseY;
+		LevelScript.playerfpcam.MouseSensitivity.x = speedx;
+		LevelScript.playerfpcam.MouseSensitivity.y = speedy;
 	}
 
 	
@@ -169,23 +180,23 @@ public class MLGeffects : MonoBehaviour {
 
 
 
-	public bool DisplayWords (string words) {
-		return DisplayWords (words, 1f, new Vector2(0,0), 50, 0);
+	public bool DisplayWords (string words, bool onTop = false) {
+		return DisplayWords (words, 1f, new Vector2(0,0), 50, 0, onTop);
 	}
 
-	public bool DisplayWords (string words, float duration) {
-		return DisplayWords (words, duration, new Vector2(0,0), 50, 0);
+	public bool DisplayWords (string words, float duration, bool onTop = false) {
+		return DisplayWords (words, duration, new Vector2(0,0), 50, 0, onTop);
 	}
 
-	public bool DisplayWords (string words, float duration, Vector2 location) {
-		return DisplayWords (words, duration, location, 50, 0);
+	public bool DisplayWords (string words, float duration, Vector2 location, bool onTop = false) {
+		return DisplayWords (words, duration, location, 50, 0, onTop);
 	}
 
-	public bool DisplayWords (string words, float duration, Vector2 location, int size) {
-		return DisplayWords (words, duration, location, size, 0);
+	public bool DisplayWords (string words, float duration, Vector2 location, int size, bool onTop = false) {
+		return DisplayWords (words, duration, location, size, 0, onTop);
 	}
 
-	public bool DisplayWords (string words, float duration, Vector2 location, int size, float rotationSpeed) {
+	public bool DisplayWords (string words, float duration, Vector2 location, int size, float rotationSpeed, bool onTop = false) {
 		if (displayingWords) return false;
 		StartCoroutine (WordDisplayer (words, duration, location, size, rotationSpeed));
 		return true;

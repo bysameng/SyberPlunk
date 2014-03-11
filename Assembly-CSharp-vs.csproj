@@ -19,7 +19,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_WEBPLAYER;WEBPLUG;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\Effects\Classes\ConversationTree.cs" />
      <Compile Include="Assets\Scripts\Effects\Classes\Despawn.cs" />
      <Compile Include="Assets\Scripts\Effects\Classes\MLGInteractable.cs" />
+     <Compile Include="Assets\Scripts\Effects\Classes\StaticCoroutine.cs" />
      <Compile Include="Assets\Scripts\Effects\Classes\SubtitleText.cs" />
      <Compile Include="Assets\Scripts\Effects\Classes\TextParser.cs" />
      <Compile Include="Assets\Scripts\Effects\Companion\CompSmoothFollow.cs" />
@@ -187,7 +188,9 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Controller\ControllerRun.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraCrouch.txt" />
      <None Include="Assets\Resources\Dialogues\Trees\streetGuyTransport.txt" />
+     <None Include="Assets\Resources\Dialogues\Trees\officesguy1.txt" />
      <None Include="Assets\Resources\Messages\SkyPlunk1\entermainroom.txt" />
+     <None Include="Assets\Resources\Messages\Apartment\apartmentstairsblocked1.txt" />
      <None Include="Assets\Resources\Articles\assignment1.txt" />
      <None Include="Assets\Resources\Messages\Apartment\apartment2.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterMachinegun.txt" />
@@ -207,12 +210,14 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponMachinegunReload.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponPistolCrouch.txt" />
      <None Include="Assets\Resources\Fonts\bitwise\!license.txt" />
+     <None Include="Assets\Resources\Messages\SkyPlunk1\guninfohelpmessage.txt" />
      <None Include="Assets\Models\Materials\Shaders\3D Text Shader.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraDead.txt" />
      <None Include="Assets\Resources\Dialogues\Monologues\praise.txt" />
      <None Include="Assets\Resources\Messages\Apartment\apartment1.txt" />
      <None Include="Assets\Resources\Messages\Office\officedoorwayenter.txt" />
      <None Include="Assets\Resources\Messages\OfficeHallway1\hallwayTo6.txt" />
+     <None Include="Assets\Resources\Dialogues\Trees\plunkergun.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponMachinegunRun.txt" />
      <None Include="Assets\Resources\Messages\OfficeHallway1\hallwayTo4.txt" />
      <None Include="Assets\Resources\Dialogues\Monologues\witness1.txt" />
@@ -228,6 +233,7 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponGenericSlide.txt" />
      <None Include="Assets\Resources\Dialogues\lasttraincar.txt" />
      <None Include="Assets\Resources\Fonts\Yukarimobile\Vic Fieger License.txt" />
+     <None Include="Assets\Resources\Messages\Apartment\apartmentstairs1.txt" />
      <None Include="Assets\Resources\Messages\Apartment\apartmentSofa.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponPistolRun.txt" />
      <None Include="Assets\Resources\Messages\OfficeHallway1\hallwayTo2.txt" />

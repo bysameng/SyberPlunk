@@ -16,6 +16,7 @@ public class PlotTrigger : MonoBehaviour {
 	public string message;
 
 	public string companionMessage;
+	public TextAsset companionMessageAsset;
 
 	public GameObject[] TalkersToUpdate;
 	public TextAsset[] TalkerFiles;
@@ -29,6 +30,7 @@ public class PlotTrigger : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		if (messageFile == null) return;
 		string[] messages = messageFile.text.Split ("\n"[0]);
 		messageArray = new SubtitleText[messages.Length];
 		for (int i = 0; i < messages.Length; i++){
@@ -69,8 +71,11 @@ public class PlotTrigger : MonoBehaviour {
 		for (int i = 0; i < ObjectsToEnable.Length; i++){
 			ObjectsToEnable[i].SetActive(true);
 		}
-		if(companionMessage != "")
+		if(companionMessage != ""){
 			LevelScript.SendComptextMessage(companionMessage);
+		}
+		else if (companionMessageAsset != null)
+			LevelScript.SendComptextMessage(companionMessageAsset);
 
 	}
 

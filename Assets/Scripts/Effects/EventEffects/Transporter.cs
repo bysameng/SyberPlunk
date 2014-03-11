@@ -37,7 +37,7 @@ public class Transporter : MLGInteractable {
 	}
 
 	new void Use(){
-		if (doneTalker == null || !doneTalker.doneTalking)
+		if (doneTalker != null && !doneTalker.doneTalking)
 			return;
 		base.Use ();
 		if (destination != null){

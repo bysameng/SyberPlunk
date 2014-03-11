@@ -88,7 +88,7 @@ public class Talker : MonoBehaviour {
 
 
 	public void ChooseChoice(int index){
-		string lastmsg = cTree.GetChoices()[index];
+
 		for (int i = 0; i < choices.Length; i++){
 			if (index != i)
 				choices[i].DestroyFade(0f);
@@ -102,9 +102,10 @@ public class Talker : MonoBehaviour {
 		ProcessTree ();
 		comptext.Next();
 		displayingChoices = false;
+		string lastmsg = cTree.GetMessages().GetLastMessage();
 		Debug.Log(choices.Length);
 		if(choices.Length <= 0){
-			Debug.Log (lastmsg);
+			LevelScript.TalkerEnd(lastmsg, comptext, this);
 			for (int i = 0; i < ObjectsToRemove.Length; i++){
 				ObjectsToRemove[i].SetActive(false);
 			}
@@ -164,6 +165,11 @@ public class Talker : MonoBehaviour {
 			choices[i].usable = true;
 		}
 		displayingChoices = true;
+	}
+
+	public void Die(){
+		mlgtext.displayingText = false;
+		this.collider.enabled = false;
 	}
 
 }

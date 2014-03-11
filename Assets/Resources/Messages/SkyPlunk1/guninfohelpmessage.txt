@@ -1,0 +1,8 @@
+<1> to equip gun.
+<F> to unequip gun.
+
+You only have 6 bullets.
+
+If you've used all of them, you're doing something wrong.
+
+It's also pretty loud. If you shoot, he's bound to run off. Discretion is advised.

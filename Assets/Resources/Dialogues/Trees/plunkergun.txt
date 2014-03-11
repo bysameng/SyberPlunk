@@ -1,0 +1,61 @@
+No, it wasn't very smart at all. @ Now I have your gun. @ How the tables have turned. @ It's ridiculous how useful this STAfE is. @ I've modified it, boosting its sensitivitiy. @ It's abosorbing all of your kinetic energy now. @ I suppose it's not perfect, as you can still move your head. @ Still, though. @ It's great that I have an INTForcer at gunpoint. @ With his own gun, no less. @ I couldn't ask for more.
+<...>
+	Now, take a good look around you. @ This is where you are going to die. @ Do you remember your life? @ Do you remember your first day of school? What about your first computer? @ Your first love? @ Your first stimulant crash? @ What about your first murder?
+	<I've never murdered anyone.>
+		Really? Then why do you have a gun? @ You didn't have to bring a gun. @ You had the intent. @ Or at least, the will. @ There's no reason to carry a gun otherwise.
+		<It's not for murder. It's self defense.>
+			You call me a murderer. @ Yet I never see myself as such. @ I am just having fun. @ Plunking, grecking, and stabbing people with britvas. @ That's my definition of fun. @ You call it murder. @ I call it release. @ Those lives I take? @ They're useless anyway.
+			<They're not useless.>
+			</>
+			<So what?>
+		</>
+	</>
+	<I remember.>
+		Do you? @ Do you remember it all? @ Because you're about to lose it. @ Remember your best birthday party? @ Your first COMPanion? @ What about your first ocular implant? @ Do you remember any of it? @ I hope you do. @ Because I'm going to pull this trigger. @ And once I do, those memories won't exist anymore.
+		<Please don't!>
+			Say your last words. @ I promise I'll remember them. @ Don't be too sad. @ You'll be free now. @ Goodbye.
+		</>
+		<Ok. Fucking shoot me.>
+			Don't you have any last words?
+			<No.>
+				Then I will say as such: @ The last words were : No. @ Alright, that's enough. @ Goodbye.
+			</>
+			<Yes.>
+				It's good that you do. @ Those are important, for some reason. @ You live and you die. @ You come and you go. @ That's just the way it is, right? @ Then, it's over. @ So whisper those last words to yourself. @ Goodbye.
+			</>
+		</>
+	</>
+	<I don't want to remember.>
+		You don't want to? @ But the memories are all you have. @ It's all you have right now. @ It's what you'll be leaving behind. @ Death. @ That's just the dissolution of your consciousness. @ Your body will cease to house your consciousness.
+		<Do you think you're a goddamn poet?>
+			Sometimes, I think of myself as a shepard. @ You've probably heard this one before. @ But it feels true. @ You're lost, little lamb. @ I need to free you from your chains. @ And it has to be meaningful.
+			<Is that why you Plunk?>
+				Of course. @ Who else can? @ I need to Plunk. @ It is my role now. @ It gives these people... fear. @ They live in the filtiest city, yet they have no fear. @ Why? @ There is everything. @ They have their fancy art, huge televisions. They make cheap stimulants, robotic sex slaves, AI friends. @ There's no ailment you can't find a price label on. @ There's no way to feel. @ And that's the way it should be, isn't it? @ I'm here to make sure you don't feel.
+				<I disagree.>
+					You don't have to agree. @ You are going to be freed. @ Freed is what you want, no? @ This city is not free. @ Nothing in life is free. @ Especially not your consciousness. @ There is no pricetag on consciousness. @ That's the one thing we can't make. @ So it's the one thing I can take away.
+					<Just kill me already.>
+						As you wish. @ Goodbye.
+					</>
+					<Let me go!>
+						I am. I am freeing you. @ On this day, today. @ Right now, when you decided to come here. @ Remember your life. @ Remember, because it is over. @ Goodbye.
+					</>
+				</>
+				<I agree.>
+					Now there's a mind. @ It's all shattered, it's all gone. @ There is no rain, and there are no teardrops. @ Goodbye.
+				</>
+			</>
+		</>
+		<...>
+			Remember it. @ Remember it all, even if you don't want to. @ It is all you have now. @ Just sit there. @ Say your farewells. @ Goodbye.
+		</>
+	</>
+</>
+<You're not going to shoot me.>
+	But I will. @ Oh, I will. @ I must. @ I'm gonna blow your fucking brains out.
+	<Then do it already.>
+		Alright. @ I hope you have had a nice life. @ Remember those moments, for yourself. @ No matter if it hurts or not. @ Just remember. @ Five... Four... Three... Two... @ I hope you're ready now. @ Goodbye.
+	</>
+	<Please don't!>
+		Do you remember?
+	</>
+</>

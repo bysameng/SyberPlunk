@@ -84,6 +84,7 @@ public class MLGText : MonoBehaviour{
 		
 	// Use this for initialization
 	void OnGUI () {
+		GUI.depth = -11;
 		if (displayingText){
 
 

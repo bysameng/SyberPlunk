@@ -15,6 +15,8 @@ public class ChoiceBubble : SpeechBubble {
 	public string interactMessage = "SAY";
 	public AudioClip keypresssound;
 
+	private Collider col;
+
 
 	new void Update () {
 		base.Update();
@@ -31,6 +33,8 @@ public class ChoiceBubble : SpeechBubble {
 		mlgtext.displayingText = false;
 		comptext = this.gameObject.GetComponentInChildren<CompanionText>();
 		comptext.usable = false;
+		col = gameObject.collider;
+		col.enabled = false;
 	}
 
 	public void SetText(string text){
@@ -43,6 +47,11 @@ public class ChoiceBubble : SpeechBubble {
 		usable = false;
 		AudioSource.PlayClipAtPoint(keypresssound, this.transform.position);
 		talkerParent.ChooseChoice(choiceNumber);
+	}
+
+	new public void MakeVisible(){
+		col.enabled = true;
+		base.MakeVisible();
 	}
 
 

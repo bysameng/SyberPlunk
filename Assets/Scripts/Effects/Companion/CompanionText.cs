@@ -11,7 +11,7 @@ public class CompanionText : MonoBehaviour {
 	private CompSmoothFollow controls;
 	private float delay = .55f;
 	private float waitForLast = 10f;
-	private string lastmsg;
+	public string lastmsg;
 
 	//this means the conversation is over, no more in queue;
 	public bool done = false;
@@ -67,7 +67,6 @@ public class CompanionText : MonoBehaviour {
 
 		if (usable){
 			if (next || (queuesize > 0 && !writing && Input.GetButtonDown ("Advance Plot"))){
-				if (next) Debug.Log ("Next!");
 				done = false;
 				next = false;
 				if (continuesound != null)

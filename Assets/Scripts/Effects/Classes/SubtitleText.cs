@@ -49,4 +49,8 @@ public class SubtitleText{
 		return "";
 	}
 
+	public string GetLastMessage(){
+		return messages[messages.Count-1];
+	}
+
 }

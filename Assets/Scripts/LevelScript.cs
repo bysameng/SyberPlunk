@@ -25,12 +25,14 @@ public class LevelScript : MonoBehaviour {
 
 	private static AudioClip newMessageSound;
 	private static int messageCount;
+
+	public static CameraFade fader;
 	
 	private bool started;
 
 
 	// Use this for initialization
-	void Start () {
+	void Awake () {
 		AudioListener.volume = 1;
 		effects = GameObject.Find("MLGeffectsObject").GetComponent<MLGeffects>();
 		player = GameObject.Find ("AdvancedPlayer");
@@ -44,6 +46,7 @@ public class LevelScript : MonoBehaviour {
 		subtitleSize = Screen.width/40;
 		subtitleQueue = new Queue<string>();
 		playerInventory = new List<string>();
+		fader = gameObject.AddComponent<CameraFade>();
 
 		newMessageSound = (AudioClip)Resources.Load("Sounds/newmessage");
 		compMessages = new List<string>();
@@ -76,7 +79,7 @@ public class LevelScript : MonoBehaviour {
 	IEnumerator SubtitleEngine(){
 		while (true){
 			if (subtitleQueue.Count != 0){
-				effects.DisplayWords(subtitleQueue.Dequeue(), 3f, subtitleLocation, subtitleSize);
+				effects.DisplayWords(subtitleQueue.Dequeue(), 3f, subtitleLocation, subtitleSize, true);
 				yield return new WaitForSeconds(3f);
 			}
 			yield return null;
@@ -100,16 +103,74 @@ public class LevelScript : MonoBehaviour {
 		}
 	}
 
+	public static void SendComptextMessage(TextAsset message){
+		SendComptextMessage(TextParser.SplitFormatArticleAsset(message), true);
+	}
+	
 
-	public static void SendComptextMessage(string message){
+	public static void SendComptextMessage(string message, bool formatted = false){
 		if (messageCount++ < 2){
 			subtitleQueue.Enqueue("I got a new message on my COMPanion.");
 		}
-		AudioSource.PlayClipAtPoint(newMessageSound, player.transform.position);
-		playercomp.InstantDisplay(message);
 		compMessages.Add(message);
+		AudioSource.PlayClipAtPoint(newMessageSound, player.transform.position);
+		if (!formatted)
+			message = TextParser.Format(message, playercomp.messagelength);
+		playercomp.InstantDisplay(message, false);
+
 	}
 
+	public static Transform SearchHierarchyForBone(Transform current, string name)   
+	{
+		// check if the current bone is the bone we're looking for, if so return it
+		if (current.name == name)
+			return current;
+		
+		// search through child bones for the bone we're looking for
+		for (int i = 0; i < current.childCount; ++i)
+		{
+			// the recursive step; repeat the search one step deeper in the hierarchy
+			Transform found = SearchHierarchyForBone(current.GetChild(i), name);
+			
+			// a transform was returned by the search above that is not null,
+			// it must be the bone we're looking for
+			if (found != null)
+				return found;
+		}
+		
+		// bone with name was not found
+		return null;
+	}
 
+	public static void TalkerEnd(string message, CompanionText comptext, Talker talker){
+		StaticCoroutine.DoCoroutine(WaitForMessage(message, comptext, talker));
+	}
 
+	static IEnumerator WaitForMessage(string message, CompanionText comptext, Talker talker){
+		Vector3 pos = talker.transform.position;
+		Quaternion rot = talker.transform.rotation;
+		while (message != comptext.lastmsg){
+			yield return null;
+			yield return null;
+		}
+		Debug.Log (message);
+		switch (message){
+		case "Let's trade!":
+			fader.StartFade(Color.black, 5f);
+			effects.SetPlayerSpeed(0f);
+			effects.SetPlayerLookSpeed(0f, 0f);
+			LevelScript.subtitleQueue.Enqueue("I handed over my gun.");
+			LevelScript.subtitleQueue.Enqueue("That was pretty stupid of me.");
+			yield return new WaitForSeconds(5f);
+			GameObject g =  (GameObject)Instantiate(Resources.Load ("Prefabs/plunkerwithgun"), pos, rot);
+			g.transform.RotateAround(g.transform.position, new Vector3(0, 1, 0), 158f);
+			LevelScript.player.transform.position = new Vector3(-160.4241f, 319.0841f, 562.1195f);
+			Destroy (talker.gameObject);
+			fader.StartFade(Color.clear, 5f);
+			effects.SetPlayerLookSpeed(-1, -1);
+			break;
+		default: break;
+		}
+	}
+	
 }
