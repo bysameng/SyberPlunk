@@ -37,7 +37,7 @@ No, it wasn't very smart at all. @ Now I have your gun. @ How the tables have tu
 						As you wish. @ Goodbye.
 					</>
 					<Let me go!>
-						I am. I am freeing you. @ On this day, today. @ Right now, when you decided to come here. @ Remember your life. @ Remember, because it is over. @ Goodbye.
+						I am. I am freeing you. @ On this day, today. @ The time has come. @ Remember your life. @ Remember, because it is over. @ Goodbye.
 					</>
 				</>
 				<I agree.>
