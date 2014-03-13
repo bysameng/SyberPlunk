@@ -14,7 +14,7 @@ public class LevelScript : MonoBehaviour {
 
 	public static Queue<string> subtitleQueue;
 
-	private Vector2 subtitleLocation;
+	private Vector2 subtitleLocation = new Vector2(0, Screen.height/3);
 	private int subtitleSize;
 
 	public static List<string> playerInventory;
@@ -24,6 +24,7 @@ public class LevelScript : MonoBehaviour {
 	private static List<string> compMessages;
 
 	private static AudioClip newMessageSound;
+	private static AudioClip bangSound;
 	private static int messageCount;
 
 	public static CameraFade fader;
@@ -49,6 +50,7 @@ public class LevelScript : MonoBehaviour {
 		fader = gameObject.AddComponent<CameraFade>();
 
 		newMessageSound = (AudioClip)Resources.Load("Sounds/newmessage");
+		bangSound = (AudioClip)Resources.Load("Sounds/bang");
 		compMessages = new List<string>();
 
 		started = false;
@@ -155,7 +157,6 @@ public class LevelScript : MonoBehaviour {
 		Quaternion rot = talker.transform.rotation;
 		while (message != comptext.lastmsg){
 			yield return null;
-			yield return null;
 		}
 		Debug.Log (message);
 		switch (message){
@@ -165,6 +166,7 @@ public class LevelScript : MonoBehaviour {
 			effects.SetPlayerLookSpeed(0f, 0f);
 			LevelScript.subtitleQueue.Enqueue("I handed over my gun.");
 			LevelScript.subtitleQueue.Enqueue("That was pretty stupid of me.");
+			LevelScript.subtitleQueue.Enqueue("What a trade.");
 			yield return new WaitForSeconds(5f);
 			GameObject g =  (GameObject)Instantiate(Resources.Load ("Prefabs/plunkerwithgun"), pos, rot);
 			g.transform.RotateAround(g.transform.position, new Vector3(0, 1, 0), 158f);
@@ -174,17 +176,117 @@ public class LevelScript : MonoBehaviour {
 			effects.SetPlayerLookSpeed(-1, -1);
 			break;
 		case "Goodbye.":
-			AudioSource.PlayClipAtPoint((AudioClip)Resources.Load<AudioClip>("Sounds/bang"), talker.transform.position);
-			fader.StartFade(Color.black, .01f);
+			StaticCoroutine.DoCoroutine(Bang(talker.transform.position));
+			StaticCoroutine.DoCoroutine(EndGame(false));
+			break;
+		case "Thanks!":
+			fader.StartFade(Color.black, 5f);
+			effects.SetPlayerSpeed(0f);
+			effects.SetPlayerLookSpeed(0f, 0f);
+			LevelScript.subtitleQueue.Enqueue("I handed over my gun.");
+			LevelScript.subtitleQueue.Enqueue("That was pretty stupid of me.");
+			yield return new WaitForSeconds(5f);
+			GameObject f =  (GameObject)Instantiate(Resources.Load ("Prefabs/plunkerwithgun"), pos, rot);
+			f.transform.RotateAround(f.transform.position, new Vector3(0, 1, 0), 158f);
+			LevelScript.player.transform.position = new Vector3(-160.4241f, 319.0841f, 562.1195f);
+			Destroy (talker.gameObject);
+			fader.StartFade(Color.clear, 5f);
+			effects.SetPlayerLookSpeed(-1, -1);
+			break;
+		case "See ya!":
+			fader.StartFade(Color.black, 2f);
+			effects.SetPlayerSpeed(0f);
+			effects.SetPlayerLookSpeed(0f, 0f);
+			yield return new WaitForSeconds(2f);
+			LevelScript.subtitleQueue.Enqueue("Well he escaped.");
+			LevelScript.subtitleQueue.Enqueue("Jumping after him would be suicide.");
+			LevelScript.subtitleQueue.Enqueue("But they're forcing me to do it.");
+			Destroy (talker.gameObject);
+			GameObject mems = GameObject.Find ("manymemsvisible");
+			SetActiveRecursively(mems, true);
+			yield return new WaitForSeconds(5f);
+			fader.StartFade(Color.clear, 5f);
+			effects.SetPlayerLookSpeed(-1, -1);
+			Instantiate(Resources.Load ("Prefabs/RagdollSpawner"), new Vector3(-233, 333, 538), Quaternion.identity);
+			effects.SetPlayerSpeed(-1);
 			break;
 		default: break;
 		}
 	}
 
-	IEnumerator EndGame(){
-		fader.StartFade(Color.black, 4f);
-		effects.FadeAudio(0, 4f);
-		yield return new WaitForSeconds(4f);
-		subtitleQueue.Enqueue("GAME OVER");
+	public static IEnumerator EndGame(bool fade = true, float seconds = 0){
+		yield return new WaitForSeconds(seconds);
+		effects.SetPlayerSpeed(0f);
+		if(fade)
+			fader.StartFade(Color.black, 1f);
+		else fader.SetScreenOverlayColor(Color.black);
+		yield return new WaitForSeconds(1f);
+		effects.DisplayWords("GAME OVER", 10f, Vector2.zero, Screen.width/30, true);
+	}
+
+	public static IEnumerator Bang(Vector3 location){
+		Destroy(GameObject.Find ("SaxBox"));
+		AudioSource.PlayClipAtPoint(bangSound, location);
+		yield return new WaitForSeconds(.1f);
+		fader.SetScreenOverlayColor(Color.black);
+		effects.FadeAudio(0, 0);
+		yield return null;
+		AudioListener.volume = 0;
+	}
+	public static IEnumerator Bang(){;
+		Destroy(GameObject.Find ("SaxBox"));
+		AudioSource.PlayClipAtPoint(bangSound, player.transform.position);
+		yield return new WaitForSeconds(.1f);
+		fader.SetScreenOverlayColor(Color.black);
+		effects.FadeAudio(0, 0);
+		yield return null;
+		AudioListener.volume = 0;
+	}
+
+	public static IEnumerator ReturnBaseDone(){;
+		Destroy(GameObject.Find ("SaxBox"));
+		AudioSource.PlayClipAtPoint(bangSound, player.transform.position);
+		yield return new WaitForSeconds(.1f);
+		fader.SetScreenOverlayColor(Color.black);
+		effects.FadeAudio(0, 0);
+		yield return null;
+		AudioListener.volume = 0;
+	}
+	
+	public static void CobbledTogetherEvent(string eventname){
+		switch(eventname){
+		case "Die":
+			StaticCoroutine.DoCoroutine(EndGame());
+			break;
+		case "Fall":
+			AudioSource.PlayClipAtPoint((AudioClip)Resources.Load ("Sounds/falling"), LevelScript.player.transform.position);
+			break;
+		case "Bang":
+			StaticCoroutine.DoCoroutine(Bang());
+			break;
+		case "Shot space":
+			GameObject plunker = GameObject.Find ("plunkerAnimation");
+			if (!plunker.renderer.isVisible)
+				Destroy (plunker);
+			else subtitleQueue.Enqueue("I wasted my only shot.");
+			break;
+		case "SHOT":
+			subtitleQueue.Enqueue ("bang, plunk fuck.");
+			subtitleQueue.Enqueue ("I guess I got him.");
+			subtitleQueue.Enqueue ("I suppose I'm done here.");
+			StaticCoroutine.DoCoroutine(EndGame(true, 10f));
+			break;
+		default: break;
+		}
+	}
+
+	public static void SetActiveRecursively(GameObject rootObject, bool active)
+	{
+		rootObject.SetActive(active);
+		
+		foreach (Transform childTransform in rootObject.transform)
+		{
+			SetActiveRecursively(childTransform.gameObject, active);
+		}
 	}
 }

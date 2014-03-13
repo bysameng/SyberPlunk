@@ -53,6 +53,8 @@ ModelImporter:
     400046: //RootNode
     4300000: Cylinder
     7400000: Default Take
+    7400002: Armature_001Action
+    7400004: Jump
     9500000: //RootNode
     13700000: //RootNode
   materials:
@@ -91,7 +93,7 @@ ModelImporter:
     splitTangentsAcrossUV: 1
     normalImportMode: 0
     tangentImportMode: 1
-  importAnimation: 0
+  importAnimation: 1
   copyAvatar: 0
   humanDescription:
     human: []

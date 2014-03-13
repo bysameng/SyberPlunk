@@ -27,7 +27,11 @@ public class SkyPlunker : MonoBehaviour {
 		STAfE.AddComponent<Rigidbody>();
 		this.gameObject.GetComponentInChildren<Talker>().Die ();
 		Destroy(this.gameObject);
+		MLGInteractable saxbox = GameObject.Find ("SaxBox").GetComponent<MLGInteractable>();
+		saxbox.Use();
 		yield return null;
+		LevelScript.SendComptextMessage("Mission complete. Now get back here.");
+		LevelScript.CobbledTogetherEvent("SHOT");
 	}
 
 

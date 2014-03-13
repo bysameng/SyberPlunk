@@ -17,9 +17,6 @@ public class Transporter : MLGInteractable {
 
 	// Use this for initialization
 	new void Start () {
-		if (travelSound != null){
-			fadeTime = travelSound.length;
-		}
 		if (destinationPoint != null) destination = destinationPoint.transform.position;
 		base.Start();
 		message = "GO";
@@ -42,6 +39,9 @@ public class Transporter : MLGInteractable {
 		base.Use ();
 		if (destination != null){
 			StartCoroutine(TransportFader(destination, fadeTime));
+			if (travelSound != null){
+				AudioSource.PlayClipAtPoint(travelSound, transform.position);
+			}
 		}
 	}
 

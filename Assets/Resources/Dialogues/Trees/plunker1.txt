@@ -8,7 +8,7 @@ First you're soaring through the fucking sky... @ Then you stop. @ You're fallin
 			<That's not a good answer.>
 				It's like if I asked you to give me your gun. @ Would you give it to me?
 				<Sure.>
-					Really? @ Then let's trade.
+					Really? @ Then Let's trade!
 					<Wait, what?>
 						Trade our weapons with each other. @ Yes or no?
 						<Yes>
@@ -18,24 +18,24 @@ First you're soaring through the fucking sky... @ Then you stop. @ You're fallin
 							Aw. Well, I guess I'll just jump. @ See ya!
 						</>
 					</>
-					<Alright, let's trade.>
+					<Alright, Let's trade!>
 						Alright. @ Let's trade!
 					</>
 				</>
 				<No way.>
 					Exactly. @ This STAfE is to me, how your handcannon is to you. @ Why would I ever give it to you? @ Do you think I'm an idiot? @ Well I'm not.
 					<No, I didn't mean it that way>
-						Really? @ Then let's trade.
+						Really? @ Then Let's trade!
 						<Wait, what?>
 							Trade our weapons with each other. @ Yes or no?
 							<Yes>
 								Alright! @ Let's trade!
 							</>
 							<No>
-								Aw. Well, I guess I'll just jump. @ See ya!
+								Aw. @ Well, I guess I'll just jump. @ See ya!
 							</>
 						</>
-						<Alright, let's trade.>
+						<Alright, Let's trade!>
 							Alright. @ Let's trade!
 						</>	
 					</>
@@ -67,7 +67,7 @@ First you're soaring through the fucking sky... @ Then you stop. @ You're fallin
 						Aw. What a killjoy. @ I was looking forward to playing with your gun. @ Don't you wanna try SkyPlunking?
 						<No.>
 							But it's so goddamn beautiful.
-							<Fine, let's trade.>
+							<Fine, Let's trade!>
 								Alright then! @ Let's trade!
 							</>
 							<No it's not.>
@@ -75,7 +75,7 @@ First you're soaring through the fucking sky... @ Then you stop. @ You're fallin
 							</>
 						</>
 						<Yes.>
-							Then let's trade.
+							Then Let's trade!
 						</>
 					</>
 					<Yes.>
@@ -96,7 +96,7 @@ First you're soaring through the fucking sky... @ Then you stop. @ You're fallin
 							Well, I do. @ Alright, well... @ See ya!
 						</>
 						<Yes.>
-							Then let's trade. @ My STAfE for your gun. @ Then you can plunk!
+							Then Let's trade! @ My STAfE for your gun. @ Then you can plunk!
 							<No.>
 								Fine. Well... I think I'm tired of this song. @ I'll plunk if you won't. @ See ya!
 							</>
@@ -134,6 +134,27 @@ First you're soaring through the fucking sky... @ Then you stop. @ You're fallin
 								You're really persistent, aren't you? @ I'm not going to give it to you. @ Well... unless we trade.
 								<Trade?>
 									Yes. Your gun for my STAfE.
+									<No.>
+										Aw. What a killjoy. @ I was looking forward to playing with your gun. @ Don't you wanna try SkyPlunking?
+										<No.>
+											Well, I do. @ Alright, well... @ See ya!
+										</>
+										<Yes.>
+											Then Let's trade! @ My STAfE for your gun. @ Then you can plunk!
+											<No.>
+												Fine. Well... I think I'm tired of this song. @ I'll plunk if you won't. @ See ya!
+											</>
+											<Yes.>
+												Alright then! @ Let's trade!
+											</>
+										</>
+									</>
+									<Yes.>
+										Alright then! @ Let's trade!
+									</>
+									<You're fucking stupid.>
+										Hahaha @ Look who's goddamn talking. @ Well, then if we're not gonna trade... @ See ya!
+									</>
 								</>
 							</>
 							<No.>
@@ -163,7 +184,7 @@ First you're soaring through the fucking sky... @ Then you stop. @ You're fallin
 												Well, I do. @ Alright, well... @ See ya!
 											</>
 											<Yes.>
-												Then let's trade. @ My STAfE for your gun. @ Then you can plunk!
+												Then Let's trade! @ My STAfE for your gun. @ Then you can plunk!
 												<No.>
 													Fine. Well... I think I'm tired of this song. @ I'll plunk if you won't. @ See ya!
 												</>
@@ -195,7 +216,7 @@ First you're soaring through the fucking sky... @ Then you stop. @ You're fallin
 													Well, I do. @ Alright, well... @ See ya!
 												</>
 												<Yes.>
-													Then let's trade. @ My STAfE for your gun. @ Then you can plunk!
+													Then Let's trade! @ My STAfE for your gun. @ Then you can plunk!
 													<No.>
 														Fine. Well... I think I'm tired of this song. @ I'll plunk if you won't. @ See ya!
 													</>
@@ -226,7 +247,7 @@ First you're soaring through the fucking sky... @ Then you stop. @ You're fallin
 									Whatever then. @ See ya!
 								</>
 								<Ok, trade.>
-									Alright then! @ Let's trade.
+									Alright then! @ Let's trade!
 								</>
 							</>
 						</>
@@ -238,7 +259,7 @@ First you're soaring through the fucking sky... @ Then you stop. @ You're fallin
 									Whatever then. @ See ya!
 								</>
 								<Ok, trade.>
-									Alright then! @ Let's trade.
+									Alright then! @ Let's trade!
 								</>
 							</>
 						</>
@@ -267,7 +288,7 @@ First you're soaring through the fucking sky... @ Then you stop. @ You're fallin
 										Whatever then. @ See ya!
 									</>
 									<Ok, trade.>
-										Alright then! @ Let's trade.
+										Alright then! @ Let's trade!
 									</>
 								</>
 							</>
@@ -279,7 +300,7 @@ First you're soaring through the fucking sky... @ Then you stop. @ You're fallin
 										Whatever then. @ See ya!
 									</>
 									<Ok, trade.>
-										Alright then! @ Let's trade.
+										Alright then! @ Let's trade!
 									</>
 								</>
 								<Fine, nevermind.>
@@ -302,7 +323,7 @@ First you're soaring through the fucking sky... @ Then you stop. @ You're fallin
 											Whatever then. @ See ya!
 										</>
 										<Ok, trade.>
-											Alright then! @ Let's trade.
+											Alright then! @ Let's trade!
 										</>
 									</>
 								</>
@@ -314,7 +335,7 @@ First you're soaring through the fucking sky... @ Then you stop. @ You're fallin
 											Whatever then. @ See ya!
 										</>
 										<Ok, trade.>
-											Alright then! @ Let's trade.
+											Alright then! @ Let's trade!
 										</>
 									</>
 									<Fine, nevermind.>
@@ -322,7 +343,7 @@ First you're soaring through the fucking sky... @ Then you stop. @ You're fallin
 									</>
 								</>
 								<Yes.>
-									Really? You'll just give it to me? @ Just like that?
+									Really? You'll just give it to me? @ Just like that? @ Thanks!
 								</>
 							</>
 						</>
@@ -334,17 +355,38 @@ First you're soaring through the fucking sky... @ Then you stop. @ You're fallin
 									I told you. @ I'm not going to give it to you. @ Unless... @ You trade me your gun for it.
 									<Trade?>
 										Yes. Your gun for my STAfE.
+										<No.>
+											Aw. What a killjoy. @ I was looking forward to playing with your gun. @ Don't you wanna try SkyPlunking?
+											<No.>
+												Well, I do. @ Alright, well... @ See ya!
+											</>
+											<Yes.>
+												Then Let's trade! @ My STAfE for your gun. @ Then you can plunk!
+												<No.>
+													Fine. Well... I think I'm tired of this song. @ I'll plunk if you won't. @ See ya!
+												</>
+												<Yes.>
+													Alright then! @ Let's trade!
+												</>
+											</>
+										</>
+										<Yes.>
+											Alright then! @ Let's trade!
+										</>
+										<You're fucking stupid.>
+											Hahaha @ Look who's goddamn talking. @ Well, then if we're not gonna trade... @ See ya!
+										</>
 									</>
 								</>
 								<No.>
 									Exactly. @ So I'm not going to give you my STAfE. @ They're hard to get, you know?
 									<Doesn't matter. Hand it over.>
 										That's really not ever going to happen. @ Unless you trade me your gun. @ Are you sure you don't want to? @ Do you want to trade?
-										<No, no trade.>
+										<No trade.>
 											Whatever then. @ See ya!
 										</>
 										<Ok, trade.>
-											Alright then! @ Let's trade.
+											Alright then! @ Let's trade!
 										</>
 									</>
 									<Fine, nevermind.>
@@ -375,16 +417,16 @@ First you're soaring through the fucking sky... @ Then you stop. @ You're fallin
 					<Well, don't suggest shit.>
 						Alright, alright man. Calm the fuck down.
 						<No, you calm the fuck down.>
-							I'm calm as fuck. @ You're the crazy one. @ Why don't you just sit down with me and jam? @ You calm the fuck down.
+							I'm calm as fuck. @ You're the crazy one. @ Why don't you just sit down with me and jam? @ You calm the fuck down. @ See ya!
 						</>
 						<I'm already calm.>
-							Then good.
+							Then good. @ See ya!
 						</>
 					</>
 					<Yeah I'm gonna shoot you.>
 						Then fucking do it. @ Fucking shoot me. @ You're just standing there talking. @ You're not gonna fucking shoot me are you?
 						<I will.>
-							Then fucking do it. @ What are you fucking scared?
+							Then fucking do it. @ What are you fucking scared? @ See ya!
 							<No.>
 								Ok. @ Then kill me. @ Take out your gun and kill me. @ Do it. @ Why aren't you doing it? @ Fucking do it. @ FUCKING KILL ME. @ Ok, then you're not going to do it? @ Then I'll kill someone. @ See ya!
 							</>
@@ -404,7 +446,7 @@ First you're soaring through the fucking sky... @ Then you stop. @ You're fallin
 											Whatever then. @ See ya!
 										</>
 										<Ok, trade.>
-											Alright then! @ Let's trade.
+											Alright then! @ Let's trade!
 										</>
 									</>
 								</>
@@ -416,7 +458,7 @@ First you're soaring through the fucking sky... @ Then you stop. @ You're fallin
 											Whatever then. @ See ya!
 										</>
 										<Ok, trade.>
-											Alright then! @ Let's trade.
+											Alright then! @ Let's trade!
 										</>
 									</>
 									<Fine, nevermind.>
@@ -424,7 +466,7 @@ First you're soaring through the fucking sky... @ Then you stop. @ You're fallin
 									</>
 								</>
 								<Yes.>
-									Really? You'll just give it to me? @ Just like that?
+									Really? You'll just give it to me? @ Just like that? @ Thanks!
 								</>
 							</>
 						</>
@@ -434,7 +476,7 @@ First you're soaring through the fucking sky... @ Then you stop. @ You're fallin
 						<You won't have a STAfE to break your fall.>
 							Doesn't matter.
 							<I'll tie you down.>
-								You don't look like the type to do so. @ And everyone knows the INTForce is a bunch of pussies.
+								You don't look like the type to do so. @ And everyone knows the INTForce is a bunch of pussies. @ I can escape and you can't even stop me. @ See ya!
 							</>
 						</>
 					</>
@@ -458,12 +500,12 @@ First you're soaring through the fucking sky... @ Then you stop. @ You're fallin
 											Whatever then. @ I'll just be going then. @ See ya!
 										</>
 										<Ok, trade.>
-											Alright then! @ Let's trade.
+											Alright then! @ Let's trade!
 										</>
 									</>
 								</>
 								<Okay, trade.>
-									Alright then! @ Let's trade.
+									Alright then! @ Let's trade!
 								</>
 							</>
 						</>
@@ -491,12 +533,12 @@ First you're soaring through the fucking sky... @ Then you stop. @ You're fallin
 														Whatever then. @ I'll just be going then. @ See ya!
 													</>
 													<Ok, trade.>
-														Alright then! @ Let's trade.
+														Alright then! @ Let's trade!
 													</>
 												</>
 											</>
 											<Okay, trade.>
-												Alright then! @ Let's trade.
+												Alright then! @ Let's trade!
 											</>
 										</>
 									</>
@@ -528,12 +570,12 @@ First you're soaring through the fucking sky... @ Then you stop. @ You're fallin
 										Whatever then. @ I'll just be going then. @ See ya!
 									</>
 									<Ok, trade.>
-										Alright then! @ Let's trade.
+										Alright then! @ Let's trade!
 									</>
 								</>
 							</>
 							<Okay, trade.>
-								Alright then! @ Let's trade.
+								Alright then! @ Let's trade!
 							</>
 						</>
 					</>
@@ -555,12 +597,12 @@ First you're soaring through the fucking sky... @ Then you stop. @ You're fallin
 										Whatever then. @ I'll just be going then. @ See ya!
 									</>
 									<Ok, trade.>
-										Alright then! @ Let's trade.
+										Alright then! @ Let's trade!
 									</>
 								</>
 							</>
 							<Okay, trade.>
-								Alright then! @ Let's trade.
+								Alright then! @ Let's trade!
 							</>
 						</>
 					</>

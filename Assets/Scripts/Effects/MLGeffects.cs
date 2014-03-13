@@ -264,6 +264,11 @@ rotation = 0;
 	}
 
 	public void FadeAudio(float to, float seconds = 1f){
+		if (seconds == 0){
+			AudioListener.volume = to;
+			return;
+		}
+		else
 		StartCoroutine(AudioFader(to, seconds));
 	}
 

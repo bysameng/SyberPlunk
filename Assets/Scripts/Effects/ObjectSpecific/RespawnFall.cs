@@ -15,9 +15,8 @@ public class RespawnFall : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other){
 		if (other.name == "AdvancedPlayer"){
-			LevelScript.effects.BlankScreen(Color.black);
-			if (LevelScript.endgame) Application.Quit();
-			Application.LoadLevel(Application.loadedLevel);
+			LevelScript.CobbledTogetherEvent("Bang");
+			LevelScript.CobbledTogetherEvent("Die");
 		}
 	}
 

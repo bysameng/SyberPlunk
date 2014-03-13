@@ -26,6 +26,8 @@ public class PlotTrigger : MonoBehaviour {
 
 	public bool destroyOnUse = true;
 
+	public string MessageToLevelScript;
+
 
 
 	// Use this for initialization
@@ -81,6 +83,9 @@ public class PlotTrigger : MonoBehaviour {
 
 
 	IEnumerator Activate(){
+		if(MessageToLevelScript != null && MessageToLevelScript != ""){
+			LevelScript.CobbledTogetherEvent(MessageToLevelScript);
+		}
 		if (messageArray != null){
 			int messageIndex = Random.Range(0, messageArray.Length);
 			SubtitleText msg = messageArray[messageIndex];

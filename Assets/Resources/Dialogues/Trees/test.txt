@@ -1,7 +1,7 @@
 Hey.
-<Wait, what happened here?>
-		well then. @ Let's trade!
+<Stop!>
+		See ya!
 </>
 <Hey?>
-	Thanks!
+	Goodbye.
 </>

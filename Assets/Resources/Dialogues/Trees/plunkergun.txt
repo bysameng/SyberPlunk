@@ -6,6 +6,7 @@ No, it wasn't very smart at all. @ Now I have your gun. @ How the tables have tu
 		<It's not for murder. It's self defense.>
 			You call me a murderer. @ Yet I never see myself as such. @ I am just having fun. @ Plunking, grecking, and stabbing people with britvas. @ That's my definition of fun. @ You call it murder. @ I call it release. @ Those lives I take? @ They're useless anyway.
 			<They're not useless.>
+				They definitely are.
 			</>
 			<So what?>
 		</>

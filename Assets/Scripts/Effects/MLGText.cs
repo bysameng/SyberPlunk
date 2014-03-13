@@ -84,23 +84,17 @@ public class MLGText : MonoBehaviour{
 		
 	// Use this for initialization
 	void OnGUI () {
-		GUI.depth = -11;
+		GUI.depth = -1000000;
 		if (displayingText){
-
-
 			if (rotationSpeed != 0){
 				Matrix4x4 matrixBackup = GUI.matrix;
 				angle += rotationSpeed*Time.deltaTime;
 				GUIUtility.RotateAroundPivot(angle, pivotPoint);
 				GUI.Label(new Rect(messagePosition.x, messagePosition.y, Screen.width, Screen.height), message, MLGStyle);
 				GUI.matrix = matrixBackup;
-				
 			}
 			else
 			GUI.Label(new Rect(messagePosition.x, messagePosition.y, Screen.width, Screen.height), message, MLGStyle);
-
 		}
 	}
-	
-	
 }

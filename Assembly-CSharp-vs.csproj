@@ -19,7 +19,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_OSX;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -39,18 +39,18 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\EffectManipulator.cs" />
      <Compile Include="Assets\Scripts\Effects\CameraFade.cs" />
      <Compile Include="Assets\Scripts\Effects\Classes\ConversationTree.cs" />
      <Compile Include="Assets\Scripts\Effects\Classes\Despawn.cs" />
      <Compile Include="Assets\Scripts\Effects\Classes\MLGInteractable.cs" />
+     <Compile Include="Assets\Scripts\Effects\Classes\RagdollSpawner.cs" />
      <Compile Include="Assets\Scripts\Effects\Classes\StaticCoroutine.cs" />
      <Compile Include="Assets\Scripts\Effects\Classes\SubtitleText.cs" />
      <Compile Include="Assets\Scripts\Effects\Classes\TextParser.cs" />
@@ -58,7 +58,6 @@
      <Compile Include="Assets\Scripts\Effects\Companion\Companion.cs" />
      <Compile Include="Assets\Scripts\Effects\Companion\CompanionText.cs" />
      <Compile Include="Assets\Scripts\Effects\EventEffects\DestroyAfterTime.cs" />
-     <Compile Include="Assets\Scripts\Effects\EventEffects\RainPrefabs.cs" />
      <Compile Include="Assets\Scripts\Effects\EventEffects\Transporter.cs" />
      <Compile Include="Assets\Scripts\Effects\FogEffects.cs" />
      <Compile Include="Assets\Scripts\Effects\Interactors\ChoiceBubble.cs" />
@@ -82,6 +81,7 @@
      <Compile Include="Assets\Scripts\Effects\ObjectSpecific\MovingTower.cs" />
      <Compile Include="Assets\Scripts\Effects\ObjectSpecific\Pickupable.cs" />
      <Compile Include="Assets\Scripts\Effects\ObjectSpecific\Platform.cs" />
+     <Compile Include="Assets\Scripts\Effects\ObjectSpecific\RainPrefabs.cs" />
      <Compile Include="Assets\Scripts\Effects\ObjectSpecific\RandomShifting.cs" />
      <Compile Include="Assets\Scripts\Effects\ObjectSpecific\Readable.cs" />
      <Compile Include="Assets\Scripts\Effects\ObjectSpecific\RespawnFall.cs" />
@@ -186,6 +186,7 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterRevolverZoom.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponRevolverReload.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Controller\ControllerRun.txt" />
+     <None Include="Assets\Resources\Messages\SkyPlunk1\justfuckingdoit.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraCrouch.txt" />
      <None Include="Assets\Resources\Dialogues\Trees\streetGuyTransport.txt" />
      <None Include="Assets\Resources\Dialogues\Trees\officesguy1.txt" />
@@ -232,6 +233,7 @@
      <None Include="Assets\Resources\Dialogues\edgefigure.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponGenericSlide.txt" />
      <None Include="Assets\Resources\Dialogues\lasttraincar.txt" />
+     <None Include="Assets\Resources\Messages\SkyPlunk1\falltrigger.txt" />
      <None Include="Assets\Resources\Fonts\Yukarimobile\Vic Fieger License.txt" />
      <None Include="Assets\Resources\Messages\Apartment\apartmentstairs1.txt" />
      <None Include="Assets\Resources\Messages\Apartment\apartmentSofa.txt" />

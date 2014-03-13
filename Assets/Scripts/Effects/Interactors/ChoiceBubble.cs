@@ -35,7 +35,7 @@ public class ChoiceBubble : SpeechBubble {
 		comptext = this.gameObject.GetComponentInChildren<CompanionText>();
 		comptext.usable = false;
 		col = gameObject.collider;
-		//col.enabled = false;
+		col.enabled = false;
 	}
 
 	public void SetText(string text){
@@ -51,7 +51,7 @@ public class ChoiceBubble : SpeechBubble {
 	}
 
 	new public void MakeVisible(){
-		//col.enabled = true;
+		col.enabled = true;
 		base.MakeVisible();
 	}
 

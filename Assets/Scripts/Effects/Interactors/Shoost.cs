@@ -43,6 +43,9 @@ public class Shoost : MonoBehaviour {
 			return;
 		}
 
+		if(LevelScript.simpleInventory.CurrentWeaponStatus.LoadedAmmo <= 0) return;
+
+
 
 		bool foundHit = false;
 		
@@ -107,11 +110,11 @@ public class Shoost : MonoBehaviour {
 				Debug.Log ("Shot enemy");
 
 				hit.transform.SendMessage ("GotShot", hit.point);
+				LevelScript.CobbledTogetherEvent("SHOT");
 				//hit.rigidbody.AddForceAtPosition (fwd * 2f, hit.point);
 				
 				//else hit.rigidbody.AddForceAtPosition (fwd * lastShootPower * jumpscope.scopeIndex, hit.point);
 			}
-
 			if (Input.GetButton ("Fire1")){
 	
 
